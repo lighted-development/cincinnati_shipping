@@ -1,0 +1,15 @@
+easy_admin:
+    site_name: 'Shipping'
+    list:
+        actions:
+            - 'show'
+    entities:
+        # List the entity class name you want to manage
+        - App\Entity\Main\BatchControlLtl
+        - App\Entity\Main\BatchControlSd
+        - App\Entity\Main\BatchControlVor
+        - App\Entity\Main\Criteria
+        - App\Entity\Main\DealerInvoice
+        - App\Entity\Main\Employee
+        - App\Entity\Main\Main
+        - App\Entity\Main\MainBackup
